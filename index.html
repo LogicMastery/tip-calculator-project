@@ -11,8 +11,34 @@
 
         <section>
             <div>
-                <label for="yourBill"></label>
+                <label for="yourBill">Bill</label>
                 <input type="number" placeholder="Your Bill" id="yourBill">
+            </div>
+            <div>
+                <div>
+                    <label for="tipInput">Select tip</label>
+                    <span id="tipPercent">0%</span>
+                </div>
+                <input type="range" value="0" id="tipInput">
+            </div>
+            <div>
+                <span>Tip</span>
+                <span id="tipValue"></span>
+            </div>
+            <hr>
+            <div>
+                <span>Total</span>
+                <span id="totalWithTip"></span>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <div>
+                    <label for="">Split</label>
+                    <span id="splitValue"></span>
+                </div>
+                <input type="range" min="1">
             </div>
         </section>
     </main>
