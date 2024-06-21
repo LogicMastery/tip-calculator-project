@@ -1,7 +1,8 @@
 html {
     font-size: 10px;
     color: #4e4d4d;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
 }
 
 main {
@@ -47,6 +48,7 @@ section > div {
 }
 
 input[type="number"] {
+    font-family: inherit;
     background: #f4f4f5;
     font-size: 1.6rem;
     border: 1px solid lightgray;
