@@ -4,3 +4,6 @@ function update(){
     let split = document.getElementById("splitInput").value;
     console.log({bill, tipPercent, split});
 }
+
+let container = document.getElementById("container");
+container.addEventListener('input', update);
