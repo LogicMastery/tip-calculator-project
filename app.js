@@ -4,6 +4,8 @@ function update(){
     let split = document.getElementById("splitInput").value;
     
     let tipValue = bill * (tipPercent / 100);
+    let tipEach = tipValue / split;
+    let newBillEach = (bill + tipValue) / split;
 }
 
 let container = document.getElementById("container");
