@@ -6,6 +6,7 @@ function update(){
     let tipValue = bill * (tipPercent / 100);
     let tipEach = tipValue / split;
     let newBillEach = (bill + tipValue) / split;
+    console.log(typeof bill)
 }
 
 let container = document.getElementById("container");
